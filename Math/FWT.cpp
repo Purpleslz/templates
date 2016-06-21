@@ -1,3 +1,5 @@
+/* 取值在[L, R]中的n个数异或为0的方案数 */
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long Int;
@@ -36,7 +38,7 @@ int solve(int L,int R)
 	for(int i=0;i<N;i++)a[i]=powmod(a[i],n);
 	fwt(a,N,-1);
 	if(a[0]<0)a[0]+=M;
-	return a[0];  //ȡֵ��[L,R]�е�n��������0������ 
+	return a[0];  //È¡ÖµÔÚ[L,R]ÖÐµÄnžöÊýÒì»òµÃ0·œ°žÊý 
 }
 int main()
 {

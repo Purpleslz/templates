@@ -1,4 +1,3 @@
-/*
 struct HASH_TABLE
 {
   map<long long,int> h;
@@ -9,8 +8,9 @@ struct HASH_TABLE
   {
     if (h.find(x) == h.end()) return -1; else return h[x];
   }
-}htable;*/
+}htable;
 
+/*
 const int pr = 100003;
 
 struct HASH_TABLE
@@ -34,6 +34,7 @@ struct HASH_TABLE
     return -1;
   }
 }htable;
+*/
 
 int ext_bsgs(long long a,long long b,long long c)
 {
